@@ -144,11 +144,12 @@ console.log(newArray);
 
 ## Que:10
 ### Ans:
-```for (let i = 1; i <= 5; i++) {
-    let row = '';
-    for (let j = i; j <= 5; j++) {
-      row += j + ' ';
-    }
-    console.log(' '.repeat(i - 1) + row.trim());
+```
+for (let i = 1; i <= 5; i++) {
+  let row = '';
+  for (let j = i; j <= 5; j++) {
+    row += j + ' ';
   }
+  console.log(' '.repeat(i - 1) + row.trim());
+}
   ```
